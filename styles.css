@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat"
+}
+
+h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight: 900;
+ }
+
+ h2{
+   font-family: 'Montserrat';
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 1.5;
+   text-align: center;
+ }
+
+ h3{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+ }
+
+ p{
+   color: #8f8f8f;
+   text-align: center;
+ }
+
+ /* Title Section */
+
+ #title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+ 
+ /* Navigation Bar (Title Section)*/
+
+ .navbar {
+   padding:0 0 4.5rem;
+ }
+ .navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+ .nav-item {
+   padding: 0 18px;
+   font-family: "Montserrat";
+ }
+
+/* Title image (Title Section) */
+
+ .title-image{
+   width: 30%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 20%;
+ }
+
+ /* Bio Section */
+
+ #bio{
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+ }
+ .bio-box {
+   text-align: center;
+ }
+ .perfil{
+  width: 50%;
+  margin: 60px 20px 50px;
+  border-radius: 50%;
+}
+ .iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ /* My skills Section */
+
+ #skills {
+   padding: 7% 15%;
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+   position: relative;
+ }
+ .skill-text {
+   color: #fff;
+ }
+ .skill-box {
+  text-align: center;
+}
+ .tech-logo{
+   width: 30%;
+   margin: 20px 20px 50px;
+ }
+
+ /* Projects section */
+
+ #projects{
+   padding: 100px;
+   text-align: center;
+ }
+
+ .projects-column{
+   padding: 3% 2%;
+ }
+ .gif{
+  width: 100%;
+  padding: 3% 2%;
+ }
+
+ /* Contact Section */
+
+ #contact {
+   background-color: #ff4c68;
+   color: #fff;
+   padding: 7% 15%;
+   text-align: center;
+ }
+ .contact-heading{
+   font-family: "Montserrat",sans-serif;
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+ }
+
+ /* Footer Section */
+
+ #footer {
+   padding: 7% 15%;
+   text-align: center;
+ }
+.footer-link {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ff4c68;
+} 
+
+ .copyright-xd {
+  color: #8f8f8f;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+ 
